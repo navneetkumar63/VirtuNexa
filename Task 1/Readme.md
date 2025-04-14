@@ -9,11 +9,10 @@ This web application allows users to calculate the factorial of a positive integ
 - HTML
 - CSS
 - JavaScript
-- Node.js (optional for backend)
-- Express.js (optional for backend)
+
 
 ## Features
 - User-friendly interface for inputting numbers.
 - Calculates factorial using both iterative and recursive methods.
 - Validates user input to ensure it is a positive integer.
-- Optional backend implementation for handling calculations.
+
