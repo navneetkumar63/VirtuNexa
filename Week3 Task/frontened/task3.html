@@ -1,0 +1,32 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task3.css">
+    <title>Recipe Sharing App</title>
+</head>
+<body>
+    <header>
+        <h1>Recipe Sharing App</h1>
+        <nav>
+            <a href="#upload">Upload Recipe</a>
+            <a href="#recipes">View Recipes</a>
+        </nav>
+    </header>
+    <main>
+        <section id="upload">
+            <h2>Upload a Recipe</h2>
+            <form id="recipeForm">
+                <input type="text" id="recipeName" placeholder="Recipe Name" required>
+                <textarea id="recipeDescription" placeholder="Recipe Description" required></textarea>
+                <input type="text" id="recipeCategory" placeholder="Category" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="recipes">
+            <h2>Recipes</h2>
+            <div id="recipeList"></div>
+        </section>
+    </main>
+    <script src="task3.js"></script>
+</body>
+</html>
